@@ -1,10 +1,11 @@
 # 🛠 Hopper Disassembler 5.18.1 U2B (macOS-SIP OFF)
 
+[![Telegram](https://img.shields.io/badge/Join%20our%20Telegram-blue?logo=telegram)](https://t.me/dylib_dobby_hook_chat)
+
 - 💻 支持平台：macOS Universal 2 Binary（Intel & Apple Silicon）
 - 📦 版本：5.18.1
 - 🧬 类型：Shellcode 注入版
 - 🔐 要求：**需关闭 SIP（System Integrity Protection）**
-
 
 ![Hopper 注入成功界面](./HopperStarter/hp.png)
 
@@ -31,6 +32,7 @@
 - 请自备原版 Hopper 应用程序
 
 ## 🔗 下载链接
+
 [https://github.com/marlkiller/hp_patch](https://github.com/marlkiller/hp_patch)
 
 ---
