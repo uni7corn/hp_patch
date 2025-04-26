@@ -6,7 +6,7 @@
 - 🔐 要求：**需关闭 SIP（System Integrity Protection）**
 
 
-![Hopper 注入成功界面](./hp.png)
+![Hopper 注入成功界面](./HopperStarter/hp.png)
 
 ## 🚀 启动方式
 
