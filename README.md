@@ -1,13 +1,22 @@
-# 🛠 Hopper Disassembler 5.18.1 U2B (macOS-SIP OFF)
+# 🛠 Hopper Disassembler for macOS 5.18.1 [U2B]
 
 [![Telegram](https://img.shields.io/badge/Join%20our%20Telegram-blue?logo=telegram)](https://t.me/dylib_dobby_hook_chat)
 
+## 🆕 更新记录
+
+**2025年4月28日**  
+
+- 新增支持 **SIP 开启 (SIP ON)** 的版本，无需关闭系统完整性保护即可运行  
+- 不再依赖 `HopperStarter` 启动  
+
+---
+
 - 💻 支持平台：macOS Universal 2 Binary（Intel & Apple Silicon）
 - 📦 版本：5.18.1
-- 🧬 类型：Shellcode 注入版
-- 🔐 要求：**需关闭 SIP（System Integrity Protection）**
+- 🧬 类型：静态注入版
+- 🔐 要求：无
 
-![Hopper 注入成功界面](./HopperStarter/hp.png)
+![Hopper 注入成功界面](./hp.png)
 
 > 🕵️ 致敬原作者精妙的混淆技术与暗桩设计，令人拍案叫绝。包括但不限于  
 
@@ -21,19 +30,16 @@
 
 ## 🚀 启动方式
 
-1. 将原版 Hopper 应用放置于以下路径：  
-   `/Applications/Hopper Disassembler v4.app`
+1. 正常打开 Hopper Disassembler 应用。
+2. 如果遇到**Apple无法验证“Hopper Disassembler.app”是否包含可能危害Mac安全或泄漏隐私的恶意软件提示**,请运行以下命令解除应用的隔离标记：
 
-2. **不要在 Hopper 源文件目录下放置任何额外文件**，包括 `HopperStarter` 本身
-
-3. 将 `HopperStarter` 放在任意其他目录，并双击运行
-
-4. 启动后自动注入并打开 Hopper，如遇注入失败，**重新运行即可**
+```bash
+/usr/bin/xattr -r -d com.apple.quarantine "/Applications/Hopper Disassembler v4.app"
+```
 
 ## 🧪 TODO
 
-支持在 **SIP 开启 (sip on)** 情况下运行
-支持 **静态注入 (static inject)**，无需每次运行注入器
+- 暂无
 
 ## ⚠️ 注意事项
 
