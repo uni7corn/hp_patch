@@ -6,7 +6,7 @@
 
 **2025年4月28日**  
 
-- 新增支持 **SIP 开启 (SIP ON)** 的版本，无需关闭系统完整性保护即可运行  
+- 支持 **SIP 开启 (SIP ON)**
 - 不再依赖 `HopperStarter` 启动  
 
 ---
@@ -46,6 +46,11 @@
 - 破解仅供研究与学习使用，禁止用于商业用途
 - 此注入方式依赖内存修改，更新后可能失效
 - **若转载请注明来源（本贴地址）与作者信息**  
+
+## 📚 相关开源库
+
+- [dylib_dobby_hook](https://github.com/marlkiller/dylib_dobby_hook)  
+- [tinyhook](https://github.com/Antibioticss/tinyhook)  
 
 ## 🔗 下载链接
 
